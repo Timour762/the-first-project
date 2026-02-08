@@ -18,6 +18,7 @@ async def main():
     scheduler_task.cancel()
     await scheduler.stop()
 
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     asyncio.run(main())
